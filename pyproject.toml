@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "micro-s"
+version = "0.1"
+description = ""
+authors = ["Kargo <kargozaurus@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.3"
+pydantic = "^2.7.1"
+psycopg2 = "^2.9.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
