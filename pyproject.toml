@@ -12,6 +12,7 @@ fastapi = "^0.110.3"
 pydentic = "^0.0.1.dev3"
 psycopg2 = "^2.9.9"
 uvicorn = {extras = ["standart"], version = "^0.29.0"}
+pydantic = {extras = ["email"], version = "^2.7.1"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"
